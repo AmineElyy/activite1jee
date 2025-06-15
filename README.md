@@ -1,33 +1,76 @@
-Architecture de mon projet
+# Compte rendu de l'Activité Pratique N°1 – Injection des dépendances
 
-![image](https://github.com/user-attachments/assets/9168176b-75b2-4570-a133-7a7e7b922ddc)
+---
 
-Voici l'interface IDao avec une méthode getData
-
-![image](https://github.com/user-attachments/assets/1f0a5131-2e4e-4c46-af0b-ef154f214686)
-
-Implemententation de l'interface
-
-![image](https://github.com/user-attachments/assets/1342d578-d136-4d76-94e4-45242256e861)
-
-Voici l'interface IMetier avec une méthode calcul
-
-![image](https://github.com/user-attachments/assets/64ccf66a-54b3-4577-a781-2eeb93fdbd6a)
-
-Voici une implémentation de cette interface en utilisant le couplage faible
-
-![image](https://github.com/user-attachments/assets/1dada922-eda3-456f-8308-cdc79271bc19)
-
-Voici l'injection des dépendances :Par instanciation statique
+## 📁 Voici l'architecture de mon projet
+![Architecture](capture/img17.png)
 
 
-Voici l'injection des dépendances :Par instanciation dynamique
-Voici mon fichier config.txt pour sortie base de donnees
-Sortie version base de donnees
-Voici mon fichier config.txt pour sortie web service
-Sortie version web service
-Voici l'injection des dépendances :En utilisant le Framework Spring
-a-Version XML
-b-Version Annotations
-Voici mon fichier config.xml
-Voici mon fichier pom.xml
+---
+
+## 🧩 Voici l'interface `IDao` avec une méthode `getData`
+![IDao](capture/img1.png)+
+
+---
+
+## 🛠️ Voici l'implémentation de cette interface
+![DaoImpl](capture/img2.png)
+
+---
+
+## 🧠 Voici l'interface `IMetier` avec une méthode `calcul`
+![IMetier](capture/img3.png)
+
+---
+
+## 🔁 Voici une implémentation de cette interface en utilisant le couplage faible
+![MetierImpl](capture/img4.png)
+
+---
+
+## 🧪 Injection des dépendances
+
+### 1️⃣ Par instanciation statique
+![Statique](captures/img5.png)
+
+### 2️⃣ Par instanciation dynamique
+![Dynamique](captures/img6.png)
+
+---
+
+## 🗂️ Fichiers de configuration & résultats
+
+### 🔹 Fichier `config.txt` – Version base de données
+![config base](capture/img12.png)
+
+### 🔹 Sortie console – Version base de données
+![sortie base](capture/img7.png)
+
+### 🔹 Fichier `config.txt` – Version web service
+![config web](capture/img12.png)
+
+### 🔹 Sortie console – Version web service
+![sortie web](capture/img8.png)
+
+---
+
+## 🌱 Injection des dépendances avec Spring
+
+### a) Version XML
+![Spring XML](capture/img10.png)
+
+### b) Version Annotations
+![Spring Annotations](capture/img11.png)
+
+---
+
+## 📄 Fichier `config.xml`
+![config.xml](capture/img14.png)
+
+---
+
+## 📦 Fichier `pom.xml`
+![pom.xml](capture/img15.png)
+
+---
+
